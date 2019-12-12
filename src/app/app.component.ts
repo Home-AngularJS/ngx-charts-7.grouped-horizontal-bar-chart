@@ -43,15 +43,15 @@ export class AppComponent {
     Object.assign(this, { multi });
   }
 
-  onSelect(data): void {
+  onSelectChart(data): void {
     console.log("Item clicked", JSON.parse(JSON.stringify(data)));
   }
 
-  onActivate(data): void {
+  onActivateChart(data): void {
     console.log("Activate", JSON.parse(JSON.stringify(data)));
   }
 
-  onDeactivate(data): void {
+  onDeactivateChart(data): void {
     console.log("Deactivate", JSON.parse(JSON.stringify(data)));
   }
 }
